@@ -14,7 +14,8 @@ shop2 = Counter({
     'orange' : 15.78
 })
 # solution for a
-print(f"The cost of 5 oranges from shop2 and 7 apples from shop 1 is {shop2['orange'] * 5  + shop1['apple']*7}")
+print(f"The total cost is {shop2['orange'] * 5  + shop1['apple']*7}")
+#changes made to solution a
 
 #solution for b
 shop1.update({'grapes': 14})
